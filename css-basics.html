@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Representing HTML Doc-->
+<!-- CSS is for applying to HTML elements to look a page good with different styles-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--It is for mentoning particular browser-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Page will open based on a device width -->
+    <title>CSS HTML File</title>
+    <!--Site Title for easy browsing in google-->
+    <meta description="HTML CSS Page" keywords="html, bootcamp">
+    <!--Site description will be added here and search keywords to browse site-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Linking external css style sheet to html-->
+    <style>
+       
+    </style>
+    <!-- creating css custom class as: custom class-name, property : value, for ids use #, for p tag p, div tag div -->
+    <!-- we can change colors/back grounds in styles by using inspect((right-click on browser)) in browser itself for corrsponding elemets by keeping cursor in elements-->
+    <!-- Padding is with in the element which applies space(align) for text in all directions i.e. up/down or left/right to specified pixel inside the element, for specific padding(spacing) do like padding-bottom,/padding-up-->
+    <!-- Margin applies ouside an element which applies space in all directions to the preceding element and next element.-->
+    <!-- When custom-class, id and div are there then it gives class as first preference, same as style will get first prefernce when id, style, class are there..-->
+    <!-- By default, browser assigns some width if we wont assign it -->
+</head>
+
+<body>
+    <h1>My CSS Page</h1>
+    <p id="p1" style="color:yellowgreen; font-size: 12px; background-color: white; border: dotted 2px red;">Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Illum adipisci amet aut. Laudantium consequuntur nobis libero? Qui
+        harum, repellendus amet temporibus, fuga et quis, at saepe alias optio ullam vitae.</p>
+    <!--By default font-size is 16px-->
+    <div>CSS div attribute</div> <!-- It will take div tag css style from .css file -->
+    <p>CSS page attribute</p> <!-- It will take p tag css style from .css file-->
+    <div style="color: #000; font-size: 16px; border: dotted 4px green;">Amazon.com, Inc. is an American multinational
+        technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.
+        It has been referred to as "one of the most influential economic and cultural forces in the world", and is one
+        of the world's most valuable</div>
+    <p id="p1" class="custom-class">Free shipping on millions of items. Get the best of Shopping and Entertainment with
+        Prime. Enjoy low prices and great deals on the largest selection of ...</p>
+    <div class="custom-class" style="background-color:white; color:pink;max-width:20px;">Amazon.com, Inc. is an American multinational
+        technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial ...</div>
+    <!--Style attribute has more precedence than class attribute, which means it have more preference than class when use same attributes in both-->
+</body>
+
+</html>
