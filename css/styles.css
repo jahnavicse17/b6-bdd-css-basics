@@ -1,0 +1,32 @@
+
+ .custom-class  
+ {
+     color: orange; 
+     font-size: 10px;
+     border: solid 2px grey;
+     padding: 10px;
+     margin: 10px;
+     max-width:500px;
+     overflow:hidden;
+     outline: 5px;
+     list-style-type: upper-roman;
+ }
+ p {
+    color: #b71bde;
+    font-size: 10px;
+    margin: 2px;
+    border: 2px solid;
+}
+
+div {
+    color: yellow;
+    padding-bottom: 3px;
+    margin: 10px;
+    border: 2px solid;
+}
+
+#p1 {
+    color: rgb(red, green, blue);
+    padding-top: 5px;
+    outline: 10px;
+}
