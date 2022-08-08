@@ -1,25 +1,25 @@
-
- .custom-class  
- {
-     color: orange; 
-     font-size: 10px;
-     border: solid 2px grey;
-     padding: 10px;
-     margin: 10px;
-     max-width:500px;
-     overflow:hidden;
-     outline: 5px;
-     list-style-type: upper-roman;
- }
- p {
-    color: #b71bde;
+.custom-class {
+    color: orange;
     font-size: 10px;
+    border: solid 2px grey;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+    overflow: hidden;
+    outline: 5px;
+    list-style-type: upper-roman;
+}
+
+p {
+    color: red;
+    font-size: 10px;
+    padding: 10px;
     margin: 2px;
     border: 2px solid;
 }
 
 div {
-    color: yellow;
+    color: Black;
     padding-bottom: 3px;
     margin: 10px;
     border: 2px solid;
@@ -29,4 +29,35 @@ div {
     color: rgb(red, green, blue);
     padding-top: 5px;
     outline: 10px;
+}
+
+table {
+    color: brown;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    outline: 10px;
+}
+
+form {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    color: yellowgreen;
+    background-color: whitesmoke;
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
+    outline:20px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border:2px solid;
+    padding: 10px;
 }
